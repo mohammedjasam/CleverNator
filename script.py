@@ -1,4 +1,4 @@
-# Pull the existing Tensorflow Environment
+"""# Pull the existing Tensorflow Environment
 docker run -it gcr.io/tensorflow/tensorflow:latest-devel
 
 # Download the multilabel data from internet to a single folder
@@ -24,9 +24,9 @@ python tensorflow/examples/image_retraining/retrain.py \
 --model_dir=/tf_files/inception \
 --output_graph=/tf_files/retrained_graph.pb \
 --output_labels=/tf_files/retrained_labels.txt \
---image_dir /traindata/
+--image_dir /data/Violent/"""
 
-go into tf_files and write python file
+# go into tf_files and write python file
 cat > classifier.py
 write code then ctrl + c
 
