@@ -1,0 +1,89 @@
+{
+    "outputs": [
+        {
+            "created_at": "2017-10-27T23:27:42.895603861Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "NORMAL",
+                        "name": "NORMAL",
+                        "value": 0.76229817
+                    },
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "GUNS",
+                        "name": "GUNS",
+                        "value": 0.0054364824
+                    },
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "FIGHT",
+                        "name": "FIGHT",
+                        "value": 0.0018531987
+                    },
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "ROBBERY",
+                        "name": "ROBBERY",
+                        "value": 3.9785984e-05
+                    },
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "VANDALISM",
+                        "name": "VANDALISM",
+                        "value": 3.9582637e-06
+                    },
+                    {
+                        "app_id": "ba9a0f220852412c833249e29c221b2f",
+                        "id": "KNIFE",
+                        "name": "KNIFE",
+                        "value": 2.9673126e-06
+                    }
+                ]
+            },
+            "id": "edc83fc1966a4ffaaaa6d69dabafc0d3",
+            "input": {
+                "data": {
+                    "image": {
+                        "base64": "true",
+                        "url": "https://s3.amazonaws.com/clarifai-api/img2/prod/small/ba9a0f220852412c833249e29c221b2f/dd42c914d9b1495bb1899549ebfae08f"
+                    }
+                },
+                "id": "ca9748e50c1d440cb1f4f59bd3b2a234"
+            },
+            "model": {
+                "app_id": "ba9a0f220852412c833249e29c221b2f",
+                "created_at": "2017-10-27T20:20:30.409572Z",
+                "id": "AbonormalityPredictor",
+                "model_version": {
+                    "created_at": "2017-10-27T23:27:36.171462Z",
+                    "id": "ac7cbc7732534a7992ba73ff1809c202",
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    },
+                    "total_input_count": 119
+                },
+                "name": "AbonormalityPredictor",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "output_config": {
+                        "closed_environment": false,
+                        "concepts_mutually_exclusive": false
+                    },
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}
