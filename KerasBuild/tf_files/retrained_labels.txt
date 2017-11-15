@@ -1,0 +1,6 @@
+robbery
+vandalism
+knife
+guns
+normal
+fist fight

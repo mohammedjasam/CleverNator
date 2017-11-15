@@ -19,13 +19,15 @@ cd tensorflow
 git pull
 
 # Train the model using the images
-python tensorflow/examples/image_retraining/retrain.py \
+python35 tensorflow/examples/image_retraining/retrain.py \
 --bottleneck_dir=/tf_files/bottlenecks \
 --how_many_training_steps 500 \
 --model_dir=/tf_files/inception \
 --output_graph=/tf_files/retrained_graph.pb \
 --output_labels=/tf_files/retrained_labels.txt \
---image_dir /data/train/"""
+--image_dir /tf_files/trainData"""
+C:\Users\Stark\Desktop\CleverNator\KerasBuild\
+python35 retrain.py --bottleneck_dir=C:\Users\Stark\Desktop\CleverNator\KerasBuild\tf_files\bottlenecks --how_many_training_steps 500 --model_dir=C:\Users\Stark\Desktop\CleverNator\KerasBuild\tf_files\inception --output_graph=C:\Users\Stark\Desktop\CleverNator\KerasBuild\tf_files\retrained_graph.pb --output_labels=C:\Users\Stark\Desktop\CleverNator\KerasBuild\tf_files\retrained_labels.txt --image_dir C:\Users\Stark\Desktop\CleverNator\KerasBuild\tf_files\trainData
 
 # go into tf_files and write python file
 cat > classifier.py
